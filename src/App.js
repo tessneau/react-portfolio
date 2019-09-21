@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Pages from './pages';
 import Nav from './components/Nav';
-import './style/App.css';
+import './style/App.scss';
 
 const App = () => {
 
