@@ -9,7 +9,7 @@ class Nav extends Component {
       <div className='nav'>
         <div className='nav__logo'>
         <NavLink className='nav__link' activeClassName='selected' exact to='/'>
-        <img src="http://www.blackponyfarm.com/index_files/image326.jpg" alt="blackponylogo" width="70px"></img>
+        <img src="http://www.blackponyfarm.com/index_files/image326.jpg" alt="blackponylogo" width="100%" height="100%"></img>
         </NavLink>
         </div>
         <ul className='nav__list'>
