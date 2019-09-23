@@ -7,7 +7,7 @@ import './style/App.scss';
 const App = () => {
 
   return (
-    <div className='app-container'>
+    <div className='app'>
     <Nav/>
     <Switch>
       <Route exact path='/' component={Pages.Landing} />

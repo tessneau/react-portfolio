@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../style/About.scss'
 
 class About extends Component {
 
