@@ -1,6 +1,19 @@
-$titleColor: #BADA55;
+// @import url('https://fonts.googleapis.com/css?family=Abhaya+Libre:600,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vidaloka&display=swap');
 
+$titleColor: #5A3E36;
 
-h1 {
-  color: $titleColor;
+.app {
+  // background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #C0AB8E 100%);
+  background: radial-gradient(circle at 200%, #333, #333 50%, #eee 75%, #333 75%);
+
+  h1 {
+    color: #eee;
+    font-family: 'Vidaloka', serif;
+    font-size: 50px;
+
+    span {
+      font-weight: 800;
+    }
+  }
 }

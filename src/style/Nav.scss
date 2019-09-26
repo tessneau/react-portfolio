@@ -1,11 +1,12 @@
 .nav {
   height: 10vh;
-  background: orange;
+  background: transparent;
   display: flex;
   justify-content: space-between;
 
   &__logo {
-    background: green;
+    margin-left: 20px;
+    width: 200px;
   }
 
   &__list {
@@ -35,21 +36,27 @@
     padding: 0px 0px 5px 0px;
     text-decoration: none;
     border: 0px;
+    transition: 0.5s 0.3s linear;
     // border-bottom: 2px solid transparent;
-    &:after {
-      margin-top: 5px; 
-      display: block;
-      content: '';
+    &:hover {
       color: #F14B31;
       border-bottom: 2px solid #F14B31;
-      transform: scaleX(0);
-      transform-origin:  0% 50%;
-      transition: all 250ms ease-in-out;
+      transform: rotate(360deg);
     }
-
-    &:hover:after {
-      transform: scaleX(1);
-    }
+    // &:after {
+    //   margin-top: 5px;
+    //   display: block;
+    //   content: '';
+    //   color: #F14B31;
+    //   border-bottom: 2px solid #F14B31;
+    //   transform: scaleX(0);
+    //   transform-origin:  0% 50%;
+    //   transition: all 250ms ease-in-out;
+    // }
+    //
+    // &:hover:after {
+    //   transform: scaleX(1);
+    // }
 
   }
 }
